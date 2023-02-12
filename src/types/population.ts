@@ -1,4 +1,60 @@
 export type Population = {
-	boundaryYear: number;
-	data: { label: string; data: { year: number; value: number }[] }[];
+  boundaryYear: number;
+  data: { label: string; data: { year: number; value: number }[] }[];
+};
+
+export type PopulationSample = {
+  label: string;
+  data: { year: number; value: number }[];
+};
+
+export type PivotPopulation = {
+  year: number;
+  北海道: number;
+  青森県: number;
+  岩手県: number;
+  宮城県: number;
+  秋田県: number;
+  山形県: number;
+  福島県: number;
+  茨城県: number;
+  栃木県: number;
+  群馬県: number;
+  埼玉県: number;
+  千葉県: number;
+  東京都: number;
+  神奈川県: number;
+  新潟県: number;
+  富山県: number;
+  石川県: number;
+  福井県: number;
+  山梨県: number;
+  長野県: number;
+  岐阜県: number;
+  静岡県: number;
+  愛知県: number;
+  三重県: number;
+  滋賀県: number;
+  京都府: number;
+  大阪府: number;
+  兵庫県: number;
+  奈良県: number;
+  和歌山県: number;
+  鳥取県: number;
+  島根県: number;
+  岡山県: number;
+  広島県: number;
+  山口県: number;
+  徳島県: number;
+  香川県: number;
+  愛媛県: number;
+  高知県: number;
+  福岡県: number;
+  佐賀県: number;
+  長崎県: number;
+  熊本県: number;
+  大分県: number;
+  宮崎県: number;
+  鹿児島県: number;
+  沖縄県: number;
 };

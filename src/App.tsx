@@ -1,15 +1,15 @@
-import React from "react";
-import { Header } from "./pages/Header";
-import { Home } from "./pages/Home";
-import { PrefecturesProvider } from "./prividers/PrefecturesContext";
+import React from 'react';
+import { RecoilRoot } from 'recoil';
+import { Header } from './pages/Header';
+import { Home } from './pages/Home';
 
 function App() {
-	return (
-		<PrefecturesProvider>
-			<Header />
-			<Home />
-		</PrefecturesProvider>
-	);
+  return (
+    <RecoilRoot>
+      <Header />
+      <Home />
+    </RecoilRoot>
+  );
 }
 
 export default App;
